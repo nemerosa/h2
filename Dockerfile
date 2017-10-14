@@ -26,5 +26,8 @@ RUN chmod u+x /var/lib/h2/h2.sh
 # Java options
 ENV JAVA_OPTIONS ""
 
+# Additional H2 options
+ENV H2_OPTIONS ""
+
 # Entry point
 ENTRYPOINT ["/var/lib/h2/h2.sh"]
